@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="questions.js"></script>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinematic Equations</title>
+  </head>
+  <body>
+    <h1 id="firsth">Kinematic Equations</h1>
+    <div id="button-set-2">
+      <p>
+        <button class="btns" id="first-e">
+          <img class="kin-img" src="images/Kinematics1.jpg" alt="Kinematics1" />
+        </button>
+        <button class="btns" id="second-e">
+          <img class="kin-img" src="images/kinematics2.jpg" alt="kinematics2" />
+        </button>
+        <button class="btns" id="third-e">
+          <img
+            class="kin-img"
+            src="images//kinematics3.jpg"
+            alt="kinematics3"
+          />
+        </button>
+        <button class="btns" id="fourth-e">
+          <img class="kin-img" src="images/kinematics4.jpg" alt="kinematics4" />
+        </button>
+      </p>
+    </div>
+    <h1 id="e-text">Equation #1</h1>
+    <h2 id="imgplace">
+      <img id="topimg" src="images/Kinematics1.jpg" alt="Equation" />
+    </h2>
+
+    <div>
+      <p>
+        <span id="vi-span">v-initial = </span>
+        <input type="number" id="v-initial" />
+      </p>
+      <p>
+        <span id="vf-span">v-final = </span>
+        <input type="number" id="v-final" />
+      </p>
+      <p><span id="a-span"> a = </span> <input type="number" id="var-a" /></p>
+      <p><span id="t-span"> t = </span> <input type="number" id="var-t" /></p>
+      <p><span id="x-span">△x = </span> <input type="number" id="var-x" /></p>
+    </div>
+
+    <p id="answr">ANSWER</p>
+    <div id="button-set-1">
+      <p>
+        <button class="btns1" id="Calculate">Solve for final velocity</button>
+        <button class="btns1" id="Calculate-2">Solve for Velocity²</button>
+        <button class="btns1" id="Calculate-3">Solve for X</button>
+        <button class="btns1" id="Calculate-4">Solve for X #4</button>
+      </p>
+    </div>
+
+    <p>Ready to test your knowledge?</p>
+
+    <p><button id="check">check</button></p>
+
+    <div id="questions-container"></div>
+
+    <p id="check-2"></p>
+
+    <p id="countdown">10</p>
+
+    <p><button id="reload">Retry</button></p>
+    <p>
+      questions are from
+      <a
+        target="_blank"
+        href="https://www.usna.edu/Users/physics/jamer/_files/documents/KinematicSolutions.pdf"
+        >KinematicSolutions</a
+      >.
+    </p>
+  </body>
+</html>

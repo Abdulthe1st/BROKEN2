@@ -1,0 +1,124 @@
+html {
+  background-image: url(images/numbers.jpg);
+}
+
+body {
+  width: 800px;
+  margin: auto;
+  border: 2px solid black;
+  text-align: center;
+  background-image: url(images/grid.jpg);
+}
+
+#firsth {
+  color: orangered;
+}
+
+button {
+  cursor: pointer;
+}
+
+#headimg {
+  width: 600px;
+}
+
+button {
+  font-size: 18px;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 60px;
+  background-color: black;
+  color: antiquewhite;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  font-size: 20px;
+  transition: 1s;
+  background-color: yellowgreen;
+  color: black;
+}
+
+#button-set-1 {
+  display: none;
+  cursor: pointer;
+}
+
+#button-set-2 {
+  margin: auto;
+  cursor: pointer;
+}
+
+.kin-img {
+  width: 100px;
+  height: 30px;
+  margin: auto;
+}
+
+.btns {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+}
+
+.btns:hover {
+  cursor: pointer;
+  background-color: goldenrod;
+  transition: all 0.5s;
+}
+
+input {
+  width: 70px;
+}
+
+input:hover {
+  border: 1px solid tomato;
+  width: 75px;
+  transition: all 0.5s;
+}
+
+#answr {
+  border: 2px solid purple;
+  margin-right: 350px;
+  margin-left: 350px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#questions-container {
+  border: 3px solid black;
+  width: 80%;
+  margin: auto;
+}
+
+.btns1 {
+  background-color: black;
+  color: white;
+  margin: auto;
+  border-radius: 15px;
+  width: 100px;
+  margin-left: 10px;
+}
+
+.btns1:hover {
+  background-color: yellowgreen;
+  color: black;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+
+#topimg {
+  border: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  font-size: 20px;
+  transition: all 0.5s;
+}
